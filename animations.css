@@ -1,0 +1,114 @@
+/*CTA_pulse start*/
+@-webkit-keyframes CTA_pulse {
+    0% {
+        -webkit-transform: translateY(0%);
+        transform: translateY(0%);
+    }
+
+    10% {
+        -webkit-transform: translateY(30%);
+        transform: translateY(30%);
+    }
+
+    20% {
+        -webkit-transform: translateY(0%);
+        transform: translateY(0%);
+    }
+
+    80% {
+        -webkit-transform: translateY(0%);
+        transform: translateY(0%);
+    }
+
+    90% {
+        -webkit-transform: translateY(30%);
+        transform: translateY(30%);
+    }
+
+    100% {
+        -webkit-transform: translateY(0%);
+        transform: translateY(0%);
+    }
+}
+
+@keyframes CTA_pulse {
+    0% {
+        -webkit-transform: translateY(0%);
+        transform: translateY(0%);
+    }
+
+    10% {
+        -webkit-transform: translateY(30%);
+        transform: translateY(30%);
+    }
+
+    20% {
+        -webkit-transform: translateY(0%);
+        transform: translateY(0%);
+    }
+
+    80% {
+        -webkit-transform: translateY(0%);
+        transform: translateY(0%);
+    }
+
+    90% {
+        -webkit-transform: translateY(30%);
+        transform: translateY(30%);
+    }
+
+    100% {
+        -webkit-transform: translateY(0%);
+        transform: translateY(0%);
+    }
+}
+
+.CTA_pulse {
+    -webkit-animation-name: CTA_pulse;
+    animation-name: CTA_pulse;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+}
+/*CTA_pulse end*/
+
+/*fadeInDown-in start*/
+.fadeInDown-in {
+    -webkit-animation-name: fadeInDownIn;
+    animation-name: fadeInDownIn;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+@-webkit-keyframes fadeInDownIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -50%, 0);
+        transform: translate3d(0, -50%, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes fadeInDownIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -50%, 0);
+        transform: translate3d(0, -50%, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+/*fadeInDown-in end*/
